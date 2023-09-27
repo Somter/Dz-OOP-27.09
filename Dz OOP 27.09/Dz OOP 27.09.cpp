@@ -180,7 +180,7 @@ int QueuePriority::Extract()
 
 int main()
 {
-    srand(time(0));
+    srand(time(0)); 
     setlocale(LC_ALL, "");
     // Создание очереди
     QueuePriority QUP(25);
